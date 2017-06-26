@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fuckin Wow shit</title>
+
+</head>
+<body>
+
+<p><img src="/images/octocat.png" alt=""></p>
+
+{% for item in items %}
+
+<img src="{{ item.image }}" alt="">
+
+<p>{{ item.title }}</p>
+
+<p>{{ item.price }}</p>
+
+{% endfor %}
+
+</body>
+</html>
